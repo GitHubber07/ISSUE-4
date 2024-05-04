@@ -28,11 +28,21 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  flex-direction: column; /* Aligning items in a column */
+  background-image: url('src/assets/download-pokemon-wallpapers-download-pokemon-wallpaper-thumb-QmJUfttb2.jpg'); /*path to the image */
+  background-size: cover; /* Covering the entire viewport */
+  background-position: center; /* Center alignment of the image */
+  background-repeat: no-repeat; /* Preventing the image from repeating */
 }
+
 
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  background-color: #1a1a1a;
+  padding: 1em 2em; /* Adjusting padding*/
+  border-radius: 20px; /* Adding curves to the corners */
+  margin-top: 20px; /* Adding margin to position the bar */
 }
 
 button {
